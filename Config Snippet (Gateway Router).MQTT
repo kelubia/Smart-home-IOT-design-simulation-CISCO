@@ -1,0 +1,10 @@
+```
+! Enable MQTT broker service on Cisco router (hypothetical commands)
+mqtt broker enable
+mqtt topic subscribe fire/smoke/co
+mqtt topic publish alarm/alerts
+
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+```
