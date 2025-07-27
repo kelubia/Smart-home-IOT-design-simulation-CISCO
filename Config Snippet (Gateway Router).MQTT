@@ -1,4 +1,5 @@
-```
+```bash
+
 ! Enable MQTT broker service on Cisco router (hypothetical commands)
 mqtt broker enable
 mqtt topic subscribe fire/smoke/co
